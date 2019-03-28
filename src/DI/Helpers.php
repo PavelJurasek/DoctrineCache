@@ -29,8 +29,6 @@ use stdClass;
 class Helpers
 {
 
-	use \Kdyby\StrictObjects\Scream;
-
 	/**
 	 * @var string[]
 	 */

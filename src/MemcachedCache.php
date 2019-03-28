@@ -15,8 +15,6 @@ use Memcached;
 class MemcachedCache extends \Doctrine\Common\Cache\MemcachedCache
 {
 
-	use \Kdyby\StrictObjects\Scream;
-
 	public function __construct(Memcached $memcached = NULL)
 	{
 		if ($memcached !== NULL) {

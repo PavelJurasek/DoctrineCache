@@ -15,8 +15,6 @@ use Redis;
 class RedisCache extends \Doctrine\Common\Cache\RedisCache
 {
 
-	use \Kdyby\StrictObjects\Scream;
-
 	public function __construct(Redis $redis = NULL)
 	{
 		if ($redis !== NULL) {

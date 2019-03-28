@@ -17,19 +17,17 @@
 		"issues": "https://github.com/kdyby/doctrinecache/issues"
 	},
 	"require": {
-		"php": "^5.6 || ^7.0",
-		"doctrine/cache": "^1.5",
-		"nette/di": "^2.4.7@dev",
-		"nette/caching": "^2.5@dev",
-		"kdyby/strict-objects": "^1.0"
+		"php": "^7.1",
+		"doctrine/cache": "^1.8",
+		"nette/di": "^3.0-RC3",
+		"nette/caching": "^3.0"
 	},
 	"require-dev": {
-		"doctrine/orm": "^2.5",
+		"doctrine/orm": "^2.6",
 		"symfony/validator": "^2.5.3 || ^3.0 || ^4.0",
-		"nette/bootstrap": "^2.4.5@dev",
-		"nette/tester": "^2.0"
+		"nette/bootstrap": "^3.0",
+		"nette/tester": "^2.2"
 	},
-	"minimum-stability": "dev",
 	"conflict": {
 		"nette/finder": "<2.4.1",
 		"nette/neon": "<2.4.2",

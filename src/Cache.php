@@ -26,8 +26,6 @@ use Symfony\Component\Validator\Mapping\ClassMetadata as SymfonyClassMetadata;
 class Cache extends \Doctrine\Common\Cache\CacheProvider
 {
 
-	use \Kdyby\StrictObjects\Scream;
-
 	const CACHE_NS = 'Doctrine';
 
 	/**
